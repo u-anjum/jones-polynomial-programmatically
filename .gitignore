@@ -1,0 +1,31 @@
+# Ignore system files and directories
+/backend/application/logs/
+/backend/application/cache/
+
+# Ignore user-specific files
+#/application/config/config.php
+#/application/config/database.php
+
+# Ignore Composer dependencies
+/backend/vendor/
+
+# Ignore NPM dependencies
+/frontend/node_modules/
+
+# Ignore build artifacts
+/frontend/dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.php
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+*.~lock.*
