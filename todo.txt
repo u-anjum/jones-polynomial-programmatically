@@ -1,0 +1,3 @@
+Run Ball
+Identify crossings
+Apply R1

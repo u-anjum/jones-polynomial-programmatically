@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knot Editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="legend">
+      <b>Knot Details</b>
+
+      <div id="knot-details"></div>
+    </div>
+
+    <div class="savebox">
+      <input type="text" class="txtSave icons" />
+      <input type="button" class="btnSave icons" value="Save" />
+    </div>
+
+    <div class="curves-list">
+      <b>Saved Knots</b>
+      <ul>
+        <li>Loading...</li>
+      </ul>
+    </div>
+
+    <div class="toolbox">
+      <b>Toolbox</b>
+      <div class="icons">
+        <a class="active icon overcrossing-icon" data-action='set-overcrossing-mode' data-tooltip="Over Crossing"><img src="/overcrossing.png" class='no-click' /></a>
+        <a class="icon undercrossing-icon" data-action='set-undercrossing-mode' data-tooltip="Under Crossing"><img src="/undercrossing.png" class='no-click' /></a>
+
+        <a class="active icon mode drawing-icon" data-action='set-draw-mode' data-tooltip="Draw mode"><img src="/draw.png" class='no-click' /></a>
+        <a class="icon mode editing-icon" data-action='set-edit-mode' data-tooltip="Edit mode"><img src="/edit.png" class='no-click' /></a>
+
+        <a class="icon mode add-icon" data-action='add-point-mode' data-tooltip="Add Point"><img src="/add.png" class='no-click' /></a>
+        <a class="icon mode remove-icon" data-action='remove-point-mode' data-tooltip="Remove Point"><img src="/remove.png" class='no-click' /></a>
+
+        <a class="icon mode show-icon active" data-action='show-point-mode' data-tooltip="Show Points"><img src="/show.png" class='no-click' /></a>
+        <a class="icon mode hide-icon" data-action='hide-point-mode' data-tooltip="Hide Points"><img src="/hide.png" class='no-click' /></a>
+      </div>
+    </div>
+    <canvas class="webgl"></canvas>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

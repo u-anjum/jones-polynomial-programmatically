@@ -1,0 +1,9 @@
+https://mathoverflow.net/questions/144158/what-is-the-state-of-the-art-for-algorithmic-knot-simplification
+
+http://www.javaview.de/services/knots/doc/description.html
+https://mathscinet.ams.org/mathscinet/relay-station?mr=3548477
+https://mathscinet.ams.org/mathscinet/relay-station?mr=3418524
+https://en.wikipedia.org/wiki/Simulated_annealing
+https://arxiv.org/abs/1211.1079
+https://arxiv.org/abs/1110.6080
+https://mathoverflow.net/questions/182961/can-knot-diagrams-be-monotonically-simplified-using-under-moves
