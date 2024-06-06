@@ -5,7 +5,7 @@ export default class Document
 {
     constructor()
     {
-        this.base = process.env.NODE_ENV = 'development'? "http://knot-editor.com/api.php?" : "http://146.190.147.177/api.php?";
+        this.base = process.env.NODE_ENV == 'development'? "http://knot-editor.com/api.php?" : "http://146.190.147.177/api.php?";
 
         this.experience = new Experience()
         this.curve = this.experience.world.curve
